@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Speech Enhancement Based on Inter-Component Phase Processing
 
 You can use the [editor on GitHub](https://github.com/SiarheiBarysenka/inter-component-phase-speech-enhancement-demo/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
