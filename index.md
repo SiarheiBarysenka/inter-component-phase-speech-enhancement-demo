@@ -4,10 +4,6 @@ This page contains listening examples of noisy and enhanced speech processed in 
 
 ## Female Speech in Modulated Pink Noise (SNR = 5 dB)
 
-<details><summary>Exapnd for examples...</summary>
-<p>
-
-  
 | Clean  | Noisy |
 | :--- | :--- |
 | PESQ = **4.50**, STOI = **1.00**, PDev = **0.00**, NA<sub>seg</sub> = **∞ dB** | PESQ = **1.55**, STOI = **0.77**, PDev = **0.64**, NA<sub>seg</sub> = **0.00 dB** |
@@ -51,10 +47,6 @@ This page contains listening examples of noisy and enhanced speech processed in 
 | :--- | :--- |
 | PESQ = **2.66**, STOI = **0.82**, PDev = **0.40**, NA<sub>seg</sub> = **10.97 dB** | PESQ = **2.65**, STOI = **0.82**, PDev = **0.43**, NA<sub>seg</sub> = **11.07 dB** |
 | <video src="https://user-images.githubusercontent.com/2571033/182364130-c1267a70-d3c3-4c3f-9347-a9accbed9122.mp4" controls="controls" style="max-width: 400px;"></video> | <video src="https://user-images.githubusercontent.com/2571033/182364083-68581f4c-e34f-41e5-b909-26fe8cf72034.mp4" controls="controls" style="max-width: 400px;"></video> |
-
-  
-</p>
-</details>
 
 ---
 
