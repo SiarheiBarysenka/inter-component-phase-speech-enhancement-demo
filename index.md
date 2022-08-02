@@ -1,15 +1,18 @@
+# Description
+
 This page contains listening examples of noisy and enhanced speech processed in the fully blind setup using algorithms proposed and/or evaluated in [[1]](#bibliography).
 
 ---
 
-### Female Speech in Modulated Pink Noise (SNR = 5 dB)
+# Female Speech in Modulated Pink Noise (SNR = 5 dB)
 
 | Clean  | Noisy |
 | ------------- | ------------- |
 | PESQ = **4.50**, STOI = **1.00**, PDev = **0.00**, NAseg = **∞ dB** | PESQ = **1.55**, STOI = **0.77**, PDev = **0.64**, NAseg = **0.00 dB** |
 | <video src="https://user-images.githubusercontent.com/2571033/182360664-5ed7d437-ae16-4e18-b301-1d20926821f2.mp4" controls="controls" style="max-width: 400px;"></video> | <video src="https://user-images.githubusercontent.com/2571033/182360769-b216b222-a20b-408c-b30f-f1c6a236a584.mp4" controls="controls" style="max-width: 400px;"></video> |
 
-#### Phase-Only Enhancement:
+
+## Phase-Only Enhancement
 
 | Smooth Everywhere + Barysenka-Vorobiov-Mowlaee | Smooth Everywhere + Bartelt-Lohmann-Wirnitzer |
 | ------------- | ------------- |
@@ -21,7 +24,8 @@ This page contains listening examples of noisy and enhanced speech processed in 
 | PESQ = **1.88**, STOI = **0.81**, PDev = **0.51**, NAseg = **1.55 dB** | PESQ = **1.82**, STOI = **0.81**, PDev = **0.53**, NAseg = **1.58 dB** |
 | <video src="https://user-images.githubusercontent.com/2571033/182363436-41ec2b30-1fbe-41a6-86f8-3c1268727221.mp4" controls="controls" style="max-width: 400px;"></video> | <video src="https://user-images.githubusercontent.com/2571033/182363500-6b5f4690-7ec5-499e-b158-a826f0908523.mp4" controls="controls" style="max-width: 400px;"></video> |
 
-#### Combined Magnitude & Phase Enhancement:
+
+## Combined Magnitude & Phase Enhancement
 
 | MMSE-LSA + Unprocessed Phase | MMSE-LSA + Clean Phase |
 | ------------- | ------------- |
@@ -40,6 +44,6 @@ This page contains listening examples of noisy and enhanced speech processed in 
 
 ---
 
-### Bibliography
+# Bibliography
 
-[1] S.Y. Barysenka, P. Mowlaee and V.I. Vorobiov, **“SNR-Based Inter-Component Phase Estimation Using Bi-Phase Prior Statistics for Single-Channel Speech Enhancement,”** *Submitted to IEEE/ACM Trans. Audio, Speech, and Language Process.*, 2022.
+[1] S.Y. Barysenka, P. Mowlaee and V.I. Vorobiov, **“SNR-Based Inter-Component Phase Estimation Using Bi-Phase Prior Statistics for Single-Channel Speech Enhancement,”** *Submitted to IEEE/ACM Transactions on Audio, Speech, and Language Processing*, 2022.
