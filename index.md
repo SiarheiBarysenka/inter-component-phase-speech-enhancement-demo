@@ -1,4 +1,4 @@
-## Speech Enhancement Based on Inter-Component Phase Processing
+## SNR-Based Inter-Component Phase Estimation Using Bi-Phase Prior Statistics for Single-Channel Speech Enhancement
 
 | First Header  | Second Header |
 | ------------- | ------------- |
