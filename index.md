@@ -2,7 +2,7 @@
 
 | First Header  | Second Header |
 | ------------- | ------------- |
-| <video src="https://user-images.githubusercontent.com/2571033/182240907-1d0b8d42-be8f-405d-a858-f7355b8a5b8b.mp4" controls="controls" style="max-width: 320px;"></video> | <video src="https://user-images.githubusercontent.com/2571033/182240907-1d0b8d42-be8f-405d-a858-f7355b8a5b8b.mp4" controls="controls" style="max-width: 320px;"></video> |
+| <video src="https://user-images.githubusercontent.com/2571033/182240907-1d0b8d42-be8f-405d-a858-f7355b8a5b8b.mp4" controls="controls" style="max-width: 640px;"></video> | <video src="https://user-images.githubusercontent.com/2571033/182240907-1d0b8d42-be8f-405d-a858-f7355b8a5b8b.mp4" controls="controls" style="max-width: 640px;"></video> |
 
 
 
