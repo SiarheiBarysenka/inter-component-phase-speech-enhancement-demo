@@ -1,6 +1,6 @@
-Listening examples
+This page contains listening examples of noisy and enhanced speech processed using algorithms proposed in [[1]](#bibliography).
 
-# Section 1
+### Modulated Pink Noise at 5 dB
 
 | First Header  | Second Header |
 | ------------- | ------------- |
@@ -40,6 +40,6 @@ For more details see [Basic writing and formatting syntax](https://docs.github.c
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SiarheiBarysenka/inter-component-phase-speech-enhancement-demo/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+### Bibliography
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[1] S.Y. Barysenka, P. Mowlaee and V.I. Vorobiov, **“SNR-Based Inter-Component Phase Estimation Using Bi-Phase Prior Statistics for Single-Channel Speech Enhancement,”** *Submitted to IEEE/ACM Trans. Audio, Speech, and Language Process.*, 2022.
