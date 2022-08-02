@@ -29,7 +29,7 @@ This page contains listening examples of noisy and enhanced speech processed in 
 &nbsp;
 ### Combined Magnitude & Phase Enhancement
 
-| MMSE-LSA + Unprocessed Phase | MMSE-LSA + Clean Phase |
+| MMSE-LSA + Unprocessed Phase *(lower bound)* | MMSE-LSA + Clean Phase *(upper bound)* |
 | :--- | :--- |
 | PESQ = **2.38**, STOI = **0.81**, NA<sub>seg</sub> = **10.03 dB** | PESQ = **2.62**, STOI = **0.85**, NA<sub>seg</sub> = **11.00 dB** |
 | <video src="https://user-images.githubusercontent.com/2571033/182364253-e7ce7736-70ee-496a-a69a-5ebd405c696a.mp4" controls="controls" style="max-width: 400px;"></video> | <video src="https://user-images.githubusercontent.com/2571033/182368654-53cba9e9-5dd6-4172-8699-545339cee5e4.mp4" controls="controls" style="max-width: 400px;"></video> |
