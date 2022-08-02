@@ -29,7 +29,8 @@ This page contains listening examples of noisy and enhanced speech processed usi
 | MMSE-LSA + Binary Hypothesis + Barysenka-Vorobiov-Mowlaee *(proposed)* | MMSE-LSA + Binary Hypothesis + Bartelt-Lohmann-Wirnitzer *(proposed)* |
 | ------------- | ------------- |
 | <video src="https://user-images.githubusercontent.com/2571033/182364130-c1267a70-d3c3-4c3f-9347-a9accbed9122.mp4" controls="controls" style="max-width: 540px;"></video> | <video src="https://user-images.githubusercontent.com/2571033/182364083-68581f4c-e34f-41e5-b909-26fe8cf72034.mp4" controls="controls" style="max-width: 540px;"></video> |
-
+  
+  
 ## Bibliography
 
 [1] S.Y. Barysenka, P. Mowlaee and V.I. Vorobiov, **“SNR-Based Inter-Component Phase Estimation Using Bi-Phase Prior Statistics for Single-Channel Speech Enhancement,”** *Submitted to IEEE/ACM Trans. Audio, Speech, and Language Process.*, 2022.
