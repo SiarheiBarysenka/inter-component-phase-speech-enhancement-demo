@@ -21,7 +21,7 @@ This page contains listening examples of noisy and enhanced speech processed in 
 | PESQ = **1.88**, STOI = **0.81**, PDev = **0.51**, NAseg = **1.55 dB** | PESQ = **1.82**, STOI = **0.81**, PDev = **0.53**, NAseg = **1.58 dB** |
 | <video src="https://user-images.githubusercontent.com/2571033/182363436-41ec2b30-1fbe-41a6-86f8-3c1268727221.mp4" controls="controls" style="max-width: 400px;"></video> | <video src="https://user-images.githubusercontent.com/2571033/182363500-6b5f4690-7ec5-499e-b158-a826f0908523.mp4" controls="controls" style="max-width: 400px;"></video> |
 
-#### MMSE-LSA Magnitude Enhancement + Phase Enhancement:
+#### Combined Magnitude & Phase Enhancement:
 
 | MMSE-LSA + Unprocessed Phase | MMSE-LSA + Clean Phase |
 | ------------- | ------------- |
