@@ -6,8 +6,8 @@ Below we present examples of speech enhancement under the following noise condit
 - [Male speech in factory noise (SNR = 10 dB)](#male-speech-in-factory-noise-snr--10-db)
 
 For each speech-in-noise record, we consider two enhancement scenarios:
-- Phase-only enhancement
-- Combined magnitude & phase enhancement
+- Phase-only enhancement;
+- Combined magnitude & phase enhancement.
 
 For phase enhancement, we consider the bi-phase smoothing schemes to estimate the bi-phase at harmonics followed by Fourier phase recovery schemes to compute enhanced harmonic phases from estimated bi-phase.
 - Bi-phase smoothing schemes
@@ -18,6 +18,12 @@ For phase enhancement, we consider the bi-phase smoothing schemes to estimate th
   - **Bartelt-Lohmann-Wirnitzer** [[3]](#bibliography): leverages all bi-phase vectors, both three-component and two-component ones.
 
 For magnitude enhancement, we consider the conventional **MMSE-LSA** algorithm [[4]](#bibliography). 
+
+We report speech enhancement performance using the following objective evaluation metrics:
+- Perceptual evaluation of speech quality (**PESQ**) [[5]](#bibliography);
+- Short-time objective intelligibility measure (**STOI**) [[6]](#bibliography);
+- Phase deviation (**PDev**) [[7]](#bibliography);
+- Segmented noise attenuation (**NAseg**) [[8]](#bibliography).
 
 ---
 
@@ -178,3 +184,11 @@ For magnitude enhancement, we consider the conventional **MMSE-LSA** algorithm [
 [3] H. Bartelt, A.W. Lohmann, and B. Wirnitzer, **“Phase and amplitude recovery from bispectra,”** *Applied Optics*, vol. 23, no. 18, pp. 3121–3129, Sep 1984.
 
 [4] Y. Ephraim and D. Malah, **“Speech enhancement using a minimum-mean square error log-spectral amplitude estimator,”** *IEEE Transactions on Audio, Speech, and Language Processing*, vol. 33, pp. 443–445, Apr. 1985.
+
+[5] A. W. Rix, J. G. Beerends, M. P. Hollier, and A. P. Hekstra, **“Perceptual evaluation of speech quality (PESQ)--a new method for speech quality assessment of telephone networks and codecs,”** *Proceedings of IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*, vol. 2, pp. 749–752, Aug. 2001.
+
+[6] C. H. Taal, R. C. Hendriks, R. Heusdens, and J. Jensen, **“An algorithm for intelligibility prediction of time-frequency weighted noisy speech,”** *IEEE Transactions on Audio, Speech, and Language Processing*, vol. 19, no. 7, pp. 2125–2136, Sept 2011.
+
+[7] A. Gaich and P. Mowlaee, **“On speech quality estimation of phase-aware single-channel speech enhancement,”** *Proceedings of IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*, Apr. 2015, pp. 216–220.
+
+[8] T. Fingscheidt, S. Suhadi, and S. Stan, **“Environment-optimized speech enhancement,”** *IEEE Transactions on Audio, Speech, and Language Processing*, vol. 16, no. 4, pp. 825–834, 2008.
