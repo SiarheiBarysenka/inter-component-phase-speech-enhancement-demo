@@ -17,7 +17,7 @@ For phase enhancement, we consider the bi-phase smoothing schemes to estimate th
   - **Barysenka-Vorobiov-Mowlaee** [[2]](#bibliography): leverages only limited set of three-component bi-phase vectors, namely with H<sub>1</sub> = 1;
   - **Bartelt-Lohmann-Wirnitzer** [[3]](#bibliography): leverages all bi-phase vectors, both three-component and two-component ones.
 
-For magnitude enhancement, we consider the conventional MMSE-LSA algorithm [[4]](#bibliography). 
+For magnitude enhancement, we consider the conventional **MMSE-LSA** algorithm [[4]](#bibliography). 
 
 ---
 
