@@ -50,6 +50,7 @@ This page contains listening examples of noisy and enhanced speech processed in 
 
 ---
 
+&nbsp;
 ## Male Speech in Babble Noise (SNR = 3 dB)
 
 | Clean  | Noisy |
@@ -98,6 +99,7 @@ This page contains listening examples of noisy and enhanced speech processed in 
 
 ---
 
+&nbsp;
 ## Bibliography
 
 [1] S.Y. Barysenka, P. Mowlaee and V.I. Vorobiov, **“SNR-Based Inter-Component Phase Estimation Using Bi-Phase Prior Statistics for Single-Channel Speech Enhancement,”** *Submitted to IEEE/ACM Transactions on Audio, Speech and Language Processing*, 2022.
