@@ -100,6 +100,55 @@ This page contains listening examples of noisy and enhanced speech processed in 
 ---
 
 &nbsp;
+## Male Speech in Factory Noise (SNR = 10 dB)
+
+| Clean  | Noisy |
+| :--- | :--- |
+| PESQ = **4.50**, STOI = **1.00**, PDev = **0.00**, NA<sub>seg</sub> = **∞ dB** | PESQ = **2.17**, STOI = **0.88**, PDev = **0.36**, NA<sub>seg</sub> = **0.00 dB** |
+| <video src="https://user-images.githubusercontent.com/2571033/182604004-1bfca189-f6d9-4e7e-8529-d413b8cadbf8.mp4" controls="controls" style="max-width: 400px;"></video> | <video src="https://user-images.githubusercontent.com/2571033/182604048-fdb17b06-7204-49cc-9690-c56af52fc775.mp4" controls="controls" style="max-width: 400px;"></video> |
+
+&nbsp;
+&nbsp;
+### Phase-Only Enhancement
+
+| Smooth Everywhere + Barysenka-Vorobiov-Mowlaee | Smooth Everywhere + Bartelt-Lohmann-Wirnitzer |
+| :--- | :--- |
+| PESQ = **2.28**, STOI = **0.88**, PDev = **0.35**, NA<sub>seg</sub> = **1.49 dB** | PESQ = **2.26**, STOI = **0.87**, PDev = **0.41**, NA<sub>seg</sub> = **1.71 dB** |
+| <video src="https://user-images.githubusercontent.com/2571033/182604398-fcbf032a-601f-49bc-bcb3-3b942518fc5a.mp4" controls="controls" style="max-width: 400px;"></video> | <video src="https://user-images.githubusercontent.com/2571033/182604450-5e2ea996-497e-4446-ad54-9c95a97c3d4e.mp4" controls="controls" style="max-width: 400px;"></video> |
+
+&nbsp;
+
+| Binary Hypothesis + Barysenka-Vorobiov-Mowlaee *(proposed)* | Binary Hypothesis + Bartelt-Lohmann-Wirnitzer *(proposed)* |
+| :--- | :--- |
+| PESQ = **2.28**, STOI = **0.86**, PDev = **0.32**, NA<sub>seg</sub> = **1.31 dB** | PESQ = **2.23**, STOI = **0.86**, PDev = **0.35**, NA<sub>seg</sub> = **1.43 dB** |
+| <video src="https://user-images.githubusercontent.com/2571033/182604738-6f0cbbf3-b421-434f-a434-5d1fd0ae1efc.mp4" controls="controls" style="max-width: 400px;"></video> | <video src="https://user-images.githubusercontent.com/2571033/182604800-5143de7a-f382-4f87-af36-a784ef01c68f.mp4" controls="controls" style="max-width: 400px;"></video> |
+
+&nbsp;
+&nbsp;
+### Combined Magnitude & Phase Enhancement
+
+| MMSE-LSA + Unprocessed Phase *(lower bound)* | MMSE-LSA + Clean Phase *(upper bound)* |
+| :--- | :--- |
+| PESQ = **2.55**, STOI = **0.88**, NA<sub>seg</sub> = **9.19 dB** | PESQ = **2.80**, STOI = **0.91**, NA<sub>seg</sub> = **9.89 dB** |
+| <video src="https://user-images.githubusercontent.com/2571033/182605072-99e70559-702f-4c67-97d8-cafe6f273b4f.mp4" controls="controls" style="max-width: 400px;"></video> | <video src="https://user-images.githubusercontent.com/2571033/182605126-cd7b5a32-af02-4a26-9471-2fe285ce79b4.mp4" controls="controls" style="max-width: 400px;"></video> |
+
+&nbsp;
+
+| MMSE-LSA + Smooth Everywhere + Barysenka-Vorobiov-Mowlaee | MMSE-LSA + Smooth Everywhere + Bartelt-Lohmann-Wirnitzer |
+| :--- | :--- |
+| PESQ = **2.59**, STOI = **0.88**, PDev = **0.33**, NA<sub>seg</sub> = **9.86 dB** | PESQ = **2.57**, STOI = **0.88**, PDev = **0.41**, NA<sub>seg</sub> = **10.25 dB** |
+| <video src="https://user-images.githubusercontent.com/2571033/182605332-a674100e-f7e3-457a-a915-79914febdbbb.mp4" controls="controls" style="max-width: 400px;"></video> | <video src="https://user-images.githubusercontent.com/2571033/182605376-3b310668-183c-4656-bcea-3d7d1fc9b29a.mp4" controls="controls" style="max-width: 400px;"></video> |
+
+&nbsp;
+
+| MMSE-LSA + Binary Hypothesis + Barysenka-Vorobiov-Mowlaee *(proposed)* | MMSE-LSA + Binary Hypothesis + Bartelt-Lohmann-Wirnitzer *(proposed)* |
+| :--- | :--- |
+| PESQ = **2.65**, STOI = **0.89**, PDev = **0.31**, NA<sub>seg</sub> = **9.67 dB** | PESQ = **2.61**, STOI = **0.89**, PDev = **0.34**, NA<sub>seg</sub> = **9.86 dB** |
+| <video src="https://user-images.githubusercontent.com/2571033/182605662-70af8977-1001-49c1-a209-8a1287f4a30e.mp4" controls="controls" style="max-width: 400px;"></video> | <video src="https://user-images.githubusercontent.com/2571033/182605811-b2e4c208-a1ea-4c2d-978a-d458552f2548.mp4" controls="controls" style="max-width: 400px;"></video> |
+
+---
+
+&nbsp;
 ## Bibliography
 
 [1] S.Y. Barysenka, P. Mowlaee and V.I. Vorobiov, **“SNR-Based Inter-Component Phase Estimation Using Bi-Phase Prior Statistics for Single-Channel Speech Enhancement,”** *Submitted to IEEE/ACM Transactions on Audio, Speech and Language Processing*, 2022.
