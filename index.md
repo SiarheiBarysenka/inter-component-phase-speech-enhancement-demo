@@ -1,5 +1,10 @@
 This page contains listening examples of noisy and enhanced speech processed in the fully blind setup using algorithms proposed and/or evaluated in [[1]](#bibliography).
 
+Below we present examples of speech enhancement under the following noise conditions:
+- Female speech in modulated pink noise (SNR = 5 dB)
+- Male speech in babble noise (SNR = 3 dB)
+- Male speech in factory noise (SNR = 10 dB)
+
 ---
 
 ## Female Speech in Modulated Pink Noise (SNR = 5 dB)
