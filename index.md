@@ -5,8 +5,23 @@ Below we present examples of speech enhancement under the following noise condit
 - Male speech in babble noise (SNR = 3 dB)
 - Male speech in factory noise (SNR = 10 dB)
 
+For each speech-in-noise record, we consider two enhancement scenarios:
+- Phase-only enhancement
+- Combined magnitude & phase enhancement
+
+For phase enhancement, we consider the bi-phase smoothing schemes to estimate the bi-phase at harmonics followed by Fourier phase recovery schemes to compute enhanced harmonic phases from estimated bi-phase.
+- Bi-phase smoothing schemes
+  - **Smooth Everywhere** [[2]](#bibliography) *(benchmark)*: bi-phase trajectories are smoothed along their whole durations;
+  - **Binary Hypothesis** [[1]](#bibliography) *(proposed)*: bi-phase trajectories are smoothed only at regions determined from bi-phase statistics using binary SNR-dependent detector.
+- Fourier phase recovery schemes
+  - **Barysenka-Vorobiov-Mowlaee** [[2]](#bibliography): leverages only limited set of three-component bi-phase vectors $\Theta_{\mathfrak{3}}(H_1, H_2, H_3, l)$, namely with $H_1=1$;
+  - **Bartelt-Lohmann-Wirnitzer** [[3]](#bibliography): leverages all bi-phase vectors, both three-component $\Theta_{\mathfrak{3}}(H_1, H_2, H_3, l)$ and two-component $\Theta_{\mathfrak{2}}(H_1, H_2 = H_1, H_3, l)$ ones.
+
+For magnitude enhancement, we consider the conventional MMSE-LSA algorithm [[4]](#bibliography). 
+
 ---
 
+&nbsp;
 ## Female Speech in Modulated Pink Noise (SNR = 5 dB)
 
 | Clean  | Noisy |
@@ -156,4 +171,10 @@ Below we present examples of speech enhancement under the following noise condit
 &nbsp;
 ## Bibliography
 
-[1] S.Y. Barysenka, P. Mowlaee and V.I. Vorobiov, **“SNR-Based Inter-Component Phase Estimation Using Bi-Phase Prior Statistics for Single-Channel Speech Enhancement,”** *Submitted to IEEE/ACM Transactions on Audio, Speech and Language Processing*, 2022.
+[1] S.Y. Barysenka, P. Mowlaee, and V.I. Vorobiov, **“SNR-based inter-component phase estimation using bi-phase prior statistics for single-channel speech enhancement,”** *Submitted to IEEE/ACM Transactions on Audio, Speech and Language Processing*, 2022.
+
+[2] S.Y. Barysenka, V.I. Vorobiov, and P. Mowlaee, **“Single-channel speech enhancement using inter-component phase relations,”** *Speech Communication*, vol. 99, pp. 144–160, 2018.
+
+[3] H. Bartelt, A.W. Lohmann, and B. Wirnitzer, **“Phase and amplitude recovery from bispectra,”** *Applied Optics*, vol. 23, no. 18, pp. 3121–3129, Sep 1984.
+
+[4] Y. Ephraim and D. Malah, **“Speech enhancement using a minimum-mean square error log-spectral amplitude estimator,”** *IEEE Transactions on Audio, Speech, and Language Processing*, vol. 33, pp. 443–445, Apr. 1985.
