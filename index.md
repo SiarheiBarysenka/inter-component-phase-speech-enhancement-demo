@@ -177,7 +177,7 @@ We report speech enhancement performance using the following objective evaluatio
 &nbsp;
 ## Bibliography
 
-[1] S.Y. Barysenka, P. Mowlaee, and V.I. Vorobiov, **“SNR-based inter-component phase estimation using bi-phase prior statistics for single-channel speech enhancement,”** *Submitted to IEEE/ACM Transactions on Audio, Speech and Language Processing*, 2022.
+[1] S.Y. Barysenka, and V.I. Vorobiov, **“SNR-based inter-component phase estimation using bi-phase prior statistics for single-channel speech enhancement,”** *Submitted to IEEE/ACM Transactions on Audio, Speech and Language Processing*, 2022.
 
 [2] S.Y. Barysenka, V.I. Vorobiov, and P. Mowlaee, **“Single-channel speech enhancement using inter-component phase relations,”** *Speech Communication*, vol. 99, pp. 144–160, 2018.
 
