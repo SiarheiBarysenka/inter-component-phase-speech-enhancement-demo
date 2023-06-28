@@ -1,4 +1,3 @@
-&nbsp;
 ## Rationale
 
 This page contains listening examples of noisy and enhanced speech processed in the fully blind setup using algorithms proposed and/or evaluated in [[1]](#bibliography).
