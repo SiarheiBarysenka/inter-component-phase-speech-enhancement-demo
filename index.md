@@ -1,6 +1,12 @@
+&nbsp;
+## Rationale
+
 This page contains listening examples of noisy and enhanced speech processed in the fully blind setup using algorithms proposed and/or evaluated in [[1]](#bibliography).
 
 The supplementary [MUSHRA test repository](https://github.com/SiarheiBarysenka/inter-component-phase-speech-enhancement-MUSHRA) contains the GUI, the full set of [audio files](https://github.com/SiarheiBarysenka/inter-component-phase-speech-enhancement-MUSHRA/tree/master/gui/configs/resources/audio) used for the experiment, the [data](https://github.com/SiarheiBarysenka/inter-component-phase-speech-enhancement-MUSHRA/blob/master/matlab/icpr_mushra_data.mat) collected from 14 listeners, and the [MATLAB script](https://github.com/SiarheiBarysenka/inter-component-phase-speech-enhancement-MUSHRA/blob/master/matlab/icpr_mushra_analysis.m) for statistical analysis of MUSHRA data used in [[1]](#bibliography) to generate Figure 9, Tables III, and IV.
+
+&nbsp;
+## Setup, Algorithms and Evaluation Metrics
 
 Below we present examples of speech enhancement under the following noise conditions:
 - [Female speech in modulated pink noise (SNR = 5 dB)](#female-speech-in-modulated-pink-noise-snr--5-db)
